@@ -5,12 +5,12 @@ Laravel + LayIM + GatewayWorker 开发的网页聊天系统。
 ## 新的改变
 
 我们对之前的开源项目--[极云赋](https://gitee.com/geekadpt/ji_yun_fu)进行了重构，新版本的项目结构更为清晰，数据库设计更为合理，程序语法更为简洁，易于拓展维护。新版本不仅包含了旧版本的全部功能，我们还增加了如下几点新功能，与时俱进：
- 1. **前后端完全分离** ，本项目包含一个完整的API服务器和两个全新设计的客户端( PC 客户端和手机客户端)；
+ 1. **前后端完全分离** ，本项目包含一个完整的 API 服务器和两个全新设计的客户端( PC 客户端和手机客户端)；
  2. 全新的右键菜单；
  3. MySQL+MongoDB 双数据库配置，高性能的 MongoDB 负责存储大量的聊天记录和消息记录；
  4. 阿里云短信；
  5. 阿里云 OSS 存储大文件和图片；
- 6. 应用 https 和 wss 传输协议
+ 6. 应用 https 和 wss 传输协议；
 
 ## 项目截图
 
@@ -25,9 +25,8 @@ Laravel + LayIM + GatewayWorker 开发的网页聊天系统。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/2021012218345267.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210122183451883.png)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20210122183451853.png)
+![在这里插入图片描述](https://luoxune.oss-cn-beijing.aliyuncs.com/app/mobile_exam.png)
 
-<img src="https://img-blog.csdnimg.cn/20210122183450713.png" width = "400" alt="" align=left /><img src="https://img-blog.csdnimg.cn/20210122183450563.png" width = "400" alt="" align=right />
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 ## 项目结构
 - app
   - Concole ------------------------------------------------------包含应用所有自定义的 Artisan 命令
@@ -142,4 +141,4 @@ LayIM 受国家计算机软件著作权保护，未经官网正规渠道授权�
 旧版本有[配套文档](https://www.kancloud.cn/tiaohuaren/laravel)，新版本配套文档还在编写中。
 
 ## 捐赠
-<img src="https://luoxune.oss-cn-beijing.aliyuncs.com/qq_group.jpg" width = "300" alt="" align=left /><img src="https://luoxune.oss-cn-beijing.aliyuncs.com/wexin_donate.png" width = "300" alt="" align=right />
+![在这里插入图片描述](https://luoxune.oss-cn-beijing.aliyuncs.com/app/donate_inte.png)
